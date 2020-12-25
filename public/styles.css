@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Montez&family=Roboto:wght@100;300;400;900&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #5b5b5b;
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /* forces items that don't fit to get bumped down to the next row */
+  flex-direction: row;
+  align-items: center;
+  margin: 30px 0px 0px 0px;
+}

@@ -1,17 +1,33 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import React, { useEffect } from "react";
+import axios from "axios";
+import store from "./store/store";
+import { addUsers } from "./actions/users";
+import Header from "./component/Header";
+import { Provider } from "react-redux";
+import ReactDOM from "react-dom";
+import UsersList from "./component/UsersList";
+import Baner from "./component/Baner";
+
+function App() {
+  useEffect(() => {
+    axios.get("http://localhost:3000/users").then((response) => {
+      console.log(response.data);
+      store.dispatch(addUsers(response.data.results));
+    });
+  });
+
+  return (
+    <div>
+      <Header />
+      <Baner />
+      <UsersList />
+    </div>
+  );
+}
 
 ReactDOM.render(
-  <React.StrictMode>
+  <Provider store={store}>
     <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  </Provider>,
+  document.getElementById("root")
 );
-
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://bit.ly/CRA-PWA
-serviceWorker.unregister();

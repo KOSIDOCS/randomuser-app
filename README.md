@@ -1,5 +1,13 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Random user generator web app using randomuser.me api.
+
+![Random user display](randomuser.png)
+
+# This is the hosted link.
+
+[Checkout the Calendar site here](https://kosidocs.github.io/randomuser-app/).
+
 ## Available Scripts
 
 In the project directory, you can run:
