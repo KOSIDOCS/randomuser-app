@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # This is the hosted link.
 
-[Checkout the Calendar site here](https://kosidocs.github.io/randomuser-app/).
+[Checkout the Random User site here](https://kosidocs.github.io/randomuser-app/).
 
 ## Available Scripts
 
