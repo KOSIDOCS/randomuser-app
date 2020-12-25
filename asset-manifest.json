@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.js": "/randomuser-app/static/js/main.6cf67249.chunk.js",
+    "main.js.map": "/randomuser-app/static/js/main.6cf67249.chunk.js.map",
+    "runtime-main.js": "/randomuser-app/static/js/runtime-main.f6c9b5c5.js",
+    "runtime-main.js.map": "/randomuser-app/static/js/runtime-main.f6c9b5c5.js.map",
+    "static/js/2.e20eab18.chunk.js": "/randomuser-app/static/js/2.e20eab18.chunk.js",
+    "static/js/2.e20eab18.chunk.js.map": "/randomuser-app/static/js/2.e20eab18.chunk.js.map",
+    "index.html": "/randomuser-app/index.html",
+    "precache-manifest.cf52e824c107896a7fb8b236790323b6.js": "/randomuser-app/precache-manifest.cf52e824c107896a7fb8b236790323b6.js",
+    "service-worker.js": "/randomuser-app/service-worker.js",
+    "static/js/2.e20eab18.chunk.js.LICENSE.txt": "/randomuser-app/static/js/2.e20eab18.chunk.js.LICENSE.txt",
+    "static/media/undraw_female_avatar_w3jk.svg": "/randomuser-app/static/media/undraw_female_avatar_w3jk.6cadafc6.svg",
+    "static/media/undraw_male_avatar_323b.svg": "/randomuser-app/static/media/undraw_male_avatar_323b.04f6abe9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f6c9b5c5.js",
+    "static/js/2.e20eab18.chunk.js",
+    "static/js/main.6cf67249.chunk.js"
+  ]
+}
